@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="center">
+        <h2>freeCodeCamp Survey Form</h2>
+        <p>Thank you for taking the time to help us improve the platform</p>
+    </div>
+    <div class="form-body">
+        <form class="input" action="submit">
+            <label class="padding" for="name">Name</label>
+            <input class="text-input" id="name" type="text" placeholder="Enter Your Name">
+            <label class="padding" for="email">Email</label>
+            <input class="text-input" id="email" type="email" placeholder="Enter Your Email">
+            <label class="padding" for="age">Age(Optional)</label>
+            <input class="text-input" id="age" type="number" placeholder="Enter Your Age">
+            <label class="padding" for="name">Which option best describes your current role?</label>
+
+            <select class="text-input">
+                <option value="" disabled selected>Select Correct role</option>
+                <option value="">Student</option>
+                <option value="">Full Time learner</option>
+                <option value="">Prefer not to say</option>
+                <option value="">Other</option>
+            </select>
+
+            <label class="padding">Would you recommend freeCodeCamp to a friend? </label>
+            <div>
+                <input type="radio">
+                <label>Definitely</label>
+
+            </div>
+            <div>
+                <input type="radio">
+                <label>Maybe</label>
+
+            </div>
+            <div>
+                <input type="radio">
+                <label>Not sure</label>
+            </div>
+
+            <label class="padding" for="name">What is your favorite feature of freeCdeCamp?</label>
+
+
+            <select class="text-input">
+
+                <option value="" disabled selected>Select an option</option>
+                <option value="">Challenges</option>
+                <option value="">Projects</option>
+                <option value="">Community</option>
+                <option value="Prefer not to say">Open Source</option>
+
+            </select>
+
+            <label class="padding">What would you like to see improved? <span>(check all that
+                    apply)</span>
+            </label>
+
+            <div>
+                <input type="checkbox">
+                <label>Front-end Projects</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label>Back-end Projects</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label>Data Visualization</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label>Challenges</label>
+            </div>
+
+            <p>Any comment or suggestions?</p>
+            <textarea cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+        </form>
+
+        <button class="btn" type="submit">Submit</button>
+    </div>
+</body>
+
+</html>
